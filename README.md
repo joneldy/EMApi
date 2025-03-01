@@ -1,0 +1,2 @@
+# EMApi
+Event Management API
