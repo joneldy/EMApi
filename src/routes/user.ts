@@ -7,7 +7,7 @@ interface AuthRequest extends Request {
 }
 
 const router: Router = express.Router();
-
+// show user profile
 router.get('/profile', authenticate, (req: AuthRequest, res: Response) => {
   res.json({ message: `Welcome ${req.user?.username}` });
 });
